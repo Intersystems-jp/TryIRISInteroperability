@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2021.1 (Build 215U)" ts="2021-10-26 18:33:51">
+<Document name="LocationToArea.LUT">
+<lookupTable>
+<entry table="LocationToArea" key="北海道">エリア1</entry>
+<entry table="LocationToArea" key="大阪府">エリア2</entry>
+<entry table="LocationToArea" key="東京都">エリア1</entry>
+<entry table="LocationToArea" key="長野県">エリア1</entry>
+</lookupTable>
+</Document></Export>

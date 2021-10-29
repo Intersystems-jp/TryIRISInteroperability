@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  iris:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: isjtryiris:interoperability
+    init: true
+    container_name: tryiris-interoperability
+    ports:
+      # webserver/management portal port
+      - "52779:52773"
+      # superserver default port
+      - "51779:1972"
+    volumes:
+      - ./in:/ISC/in
+      
+    environment:
+      TZ: JST-9
