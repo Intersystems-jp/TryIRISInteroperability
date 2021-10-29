@@ -117,10 +117,10 @@ ABCSystem.Employeeが更新されたか、管理ポータルのSQL画面（管�
 
 ABCSystem.Employeeを全件返すGET要求）
 
-http://localhost:52773/ABCSystem/employee
+http://localhost:52779/ABCSystem/employee
 
 **Curlコマンドでの実行**
 ```
-curl http://localhost:52773/ABCSystem/employee
+curl http://localhost:52779/ABCSystem/employee
 
 ```
